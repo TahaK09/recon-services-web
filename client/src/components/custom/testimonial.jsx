@@ -50,8 +50,8 @@ const TestimonialsSection = () => {
   return (
     <div className="my-20 flex flex-col items-center text-center">
       <p className="text-4xl font-bold max-w-5xl mb-[72px]">
-        Trusted by <span className="text-blue-600">30k+</span> world class
-        companies & design teams
+        What our <span className="text-blue-600">Clients</span> have to say
+        about us!
       </p>
       <div className="flex flex-wrap items-center justify-center gap-4">
         {testimonials.map((testimonial, index) => (

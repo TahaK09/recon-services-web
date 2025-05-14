@@ -2,8 +2,8 @@ import React from "react";
 
 function Overview() {
   return (
-    <div className="w-full lg:h-[60vh] flex justify-center items-center gap-20 mt-40">
-      <div className="flex flex-col justify-start items-start gap-2 w-[40%]">
+    <div className="w-full lg:h-[60vh] flex justify-center items-center gap-20 mt-20">
+      <div className="flex flex-col justify-start items-start gap-2 w-full">
         <div className="font-semibold text-2xl text-gray-500">Overview</div>
         <div className="font-semibold text-5xl text-gray-700">
           About Re-con Services
@@ -33,7 +33,7 @@ function Overview() {
           and efficiency.
         </div>
       </div>
-      <div className="h-full">
+      <div className="h-full w-[40%]">
         <img
           className="w-full h-full rounded-2xl"
           src="https://www.reconservices.in/uploads/special_video_bg.jpg"
