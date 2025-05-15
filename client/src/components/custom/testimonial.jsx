@@ -3,21 +3,21 @@ import React from "react";
 const testimonials = [
   {
     img: "https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/userImage/userImage1.png",
-    name: "Donald Jackman",
-    role: "Content Creator",
-    text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  aliquip”",
+    name: "Priya Sharma",
+    role: "Client",
+    text: "“We have been partnering with Re-con Services for over a year now, and they have greatly enhanced our manufacturing capabilities. Their cutting tools are of superior quality and have made a noticeable difference in our output.”",
   },
   {
     img: "https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/userImage/userImage2.png",
-    name: "Richard Nelson",
-    role: "Content Writer",
-    text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  aliquip”",
+    name: "Arvind Mehta",
+    role: "Client",
+    text: "“Re-con Services's professionalism and dedication are commendable. Since partnering with them, we've experienced a significant boost in our efficiency and product quality. I highly recommend Re-con Services to anyone in the manufacturing industry.”",
   },
   {
     img: "https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/userImage/userImage3.png",
-    name: "James Washington",
-    role: "Content Marketing",
-    text: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  aliquip”",
+    name: "Rajesh Kumar",
+    role: "Client",
+    text: "“Re-con Services has been an absolute game-changer for our manufacturing processes. The team is highly knowledgeable and always ready to assist with any issues we encounter.”",
   },
 ];
 

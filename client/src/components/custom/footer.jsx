@@ -46,7 +46,18 @@ const Footer = () => {
         </div>
       </div>
       <p className="pt-4 text-center text-xs md:text-sm pb-5">
-        Copyright 2024 © Re-con Services. All Right Reserved.
+        Copyright 2024 © Re-con Services. All Right Reserved.{" "}
+        <span>
+          Built by{" "}
+          <a
+            className="text-blue-600"
+            target="_blank"
+            href="https://linkedin.com/in/tahafirozkhan"
+          >
+            Taha F. Khan
+          </a>
+          .
+        </span>
       </p>
     </footer>
   );
