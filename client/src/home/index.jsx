@@ -5,6 +5,8 @@ import CTA from "../components/custom/CallToAction";
 import Distributers from "../components/custom/dist";
 import Features from "../components/custom/features";
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
+import Hero from "../components/custom/heroSection";
+import Manufacturing from "../components/custom/manufacturing-section";
 
 const clients = [
   {
@@ -40,11 +42,13 @@ const clients = [
 function Home() {
   return (
     <>
-      <div className="w-[80vw] mx-auto flex flex-col gap-5">
+      <div className="w-full flex flex-col gap-5">
+        <Hero />
         <Overview />
         <Features />
-        <InfiniteMovingCards items={clients} />
+        <Manufacturing />
         <TestimonialsSection />
+        <InfiniteMovingCards items={clients} />
         <Distributers />
       </div>
     </>

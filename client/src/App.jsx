@@ -6,6 +6,7 @@ import About from "./about/index";
 import Clients from "./clients/index";
 import Manufacturing from "./manufacturing/index";
 import Contact from "./contact/index";
+import ProductDetails from "./manufacturing/product";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/client" element={<Clients />} />
           <Route path="/our-manufacturing" element={<Manufacturing />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/product-details" element={<ProductDetails />} />
         </Routes>
       </div>
       <Footer />

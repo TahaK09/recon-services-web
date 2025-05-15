@@ -19,6 +19,12 @@ const testimonials = [
     role: "Client",
     text: "“Re-con Services has been an absolute game-changer for our manufacturing processes. The team is highly knowledgeable and always ready to assist with any issues we encounter.”",
   },
+  {
+    img: "https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/userImage/userImage2.png",
+    name: "Arvind Mehta",
+    role: "Client",
+    text: "“Re-con Services's professionalism and dedication are commendable. Since partnering with them, we've experienced a significant boost in our efficiency and product quality. I highly recommend Re-con Services to anyone in the manufacturing industry.”",
+  },
 ];
 
 const TestimonialCard = ({ img, name, role, text }) => (

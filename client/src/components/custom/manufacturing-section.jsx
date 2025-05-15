@@ -48,11 +48,17 @@ function Manufacturing() {
       image: Drill,
       bgColor: "#F1E3F9",
     },
+    {
+      text: "Dairy Products",
+      path: "Dairy",
+      image: Drill,
+      bgColor: "#FEE6CD",
+    },
   ];
   //   const { navigate } = useAppContext();
   return (
     <>
-      <div className="mt-16">
+      <div className="mt-16 mx-40">
         <p className="text-2xl md:text-3xl font-medium text-gray-700">
           Our Manufacturing
         </p>
@@ -72,7 +78,7 @@ function Manufacturing() {
                 alt={item.text}
                 className="group-hover:scale-108 transition max-w-28"
               />
-              <p className="text-sm font-medium">{item.text}</p>
+              <p className="text-md text-center font-medium">{item.text}</p>
             </div>
           ))}
         </div>
